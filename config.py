@@ -16,7 +16,6 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://amrobots:amrobots@cluster0.e3hn16i.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "6010227382")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001527701055")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "amrobots_bots") # For Force Subscription
